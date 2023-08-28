@@ -2,7 +2,7 @@ import webbrowser
 import input.DevIndexSubCategory as ZDISC
 
 print("\033[34m欢迎来到我的百宝箱！")
-webbrowser.open("https://5h9igzqanx.github.io/SCDWBST",new=0,autoraise=True)
+webbrowser.open("https://5h9igzqanx.github.io/TRDWBST",new=0,autoraise=True)
 print("\033[34m    |我们的类别:\n    |1.日常使用\n    |2.社交聊天\n    |3.实用工具\n    |4.电脑报废\033[0m")
 InputCategoryParent = input("\033[34m    |\033[33m请选择:\033[32m")
 while InputCategoryParent != "1" and InputCategoryParent != "2" and InputCategoryParent != "3" and InputCategoryParent != "4":
