@@ -16,6 +16,6 @@ elif InputCategoryParent == "3":
 elif InputCategoryParent == "4":
     ZDISC.Subcategory_4()
 
-##开发中尚未完成，禁止发布任何包或自解压程序！！！
-##此文件已完成编辑，可以封装
-##为此已内置环境，无需再次安装python
+##开发中尚未完成,禁止发布任何包或自解压程序！！！
+##此文件已完成编辑,可以封装
+##为此已内置环境,无需再次安装python

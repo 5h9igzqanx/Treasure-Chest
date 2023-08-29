@@ -3,9 +3,9 @@ import random
 import os
 
 
-xuanxiang_shuliang = int(input("请输入您困惑的条数，最多支持5个:"))
+xuanxiang_shuliang = int(input("请输入您困惑的条数,最多支持5个:"))
 while xuanxiang_shuliang > 5:
-    xuanxiang_shuliang = int(input("最多支持5条选项，请重新输入："))
+    xuanxiang_shuliang = int(input("最多支持5条选项,请重新输入："))
 
 xuanxiang_wenti = input("请输入您的问题：")
 xuanxiang_1 = input("请输入您的第一个选项：")
@@ -57,12 +57,12 @@ elif xuanxiang_shuliang == 5:
     elif xuanxiang_suijishu == 5:
         xuanxiang_shuchu = xuanxiang_5
 
-shuchu_zong1 = "恭喜，您关于“" + xuanxiang_wenti + "”的问题已有答复."
+shuchu_zong1 = "恭喜,您关于“" + xuanxiang_wenti + "”的问题已有答复."
 shuchu_zong2 = "“" + xuanxiang_shuchu + "”" + "被选中了！"
 print(shuchu_zong1 + shuchu_zong2)
 
 
-close = input("\033[5;33m你需要继续使用吗，或是退出？(Y/N):\033[5;32m")
+close = input("\033[5;33m你需要继续使用吗,或是退出？(Y/N):\033[5;32m")
 if close == "Y":
     print("===========================")
     py_z = r"cd . && python index.py"
